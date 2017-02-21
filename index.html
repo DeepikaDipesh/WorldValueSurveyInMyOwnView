@@ -2,17 +2,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <!-- <style>
-        /* data table styles */
-        #grid { height: 400px; width: 100%; padding:30px; overflow-y: scroll ; }
-        .row, .header { clear: left; font-size: 12px; line-height: 18px; height: 18px; }
-        .row:nth-child(odd) { background: rgba(0,0,0,0.05); }
-        .header { font-weight: bold; }
-        .cell { float: left; overflow: hidden; white-space: nowrap; width: 8%; height: 18px; }
-        .col-0 { width: 30%; }
-        .col-1 { width: 60%; }
-        .col-2 { width: 10%; }
-    </style>-->
     <title>
         Information Visualization Project 2 2017
     </title>
@@ -35,7 +24,7 @@
 
 <body style="background-color:white; color:black;">
 
-<class="container" style="width:100%;margin:auto;">
+<div class="container" style="width:100%;margin:auto;">
 
     <div id="title" style="font-weight: bold;text-align: center;"> Visualizing the World Through its Own Worldview</div><br>
 
@@ -49,15 +38,28 @@
     </div>
 <br>
 
-<div id="details"> The map shows the distribution of the average value of the variables across countries, excluding missing values.
-    <p> Leisure time = range[1-4]</p>
-    <p>State of health = range[1-4]</p>
-    <p>Satisfaction with Life = range[1-10]</p>
-    <p>NumberofChildren = range[0-8]</p>
-    <p>Democracy = range[1-9]</p>
-    <p>Education Attainted = range[1-9]</p>
-    <p>Scale of income = range[1-10]</p>
-    <p>Social Class = range[1-5}</p>
+<div>
+    <p>The map shows the distribution of the average value of the variables across countries, excluding missing values.</p><br>
+<div id="details">
+         <ul>Variables used for hypothesis
+         <li>Leisure time = range[1-4]//Not at all Important to Very Important</li>
+         <li>State of health = range[1-4]//poor to very good</li>
+         <li>Satisfaction with Life = range[1-10]//Completely dissatisfied to Completely satisfied</li>
+         <li>NumberofChildren = range[0-8]//Zero Children to Eight children</li>
+         <li>Democracy = range[1-9]//Not a democratic country to democratic country</li>
+         <li>Education Attainted = range[1-9]//No formal education to university education</li>
+         <li> Scale of income = range[1-10]//Low income to Very high income</li>
+         <li> Social Class = range[1-5]//Lower class to upper class</li>
+         </ul>
+</div>
+
+    <div id="wave"><ul>Survey data over 3 periods
+                   <li>Wave 4 - 1999-2004</li>
+                   <li>Wave 5 - 2005-2009</li>
+        <li>Wave 6 - 2010-2014</li></ul>
+    </div>
+
+
 </div>
 </div>
 
@@ -88,8 +90,6 @@
                 .range(["blue", "red"])
                 .interpolate(d3.interpolateLab);
 
-            //Just a comment
-            //
 
             var color = function (d) {
                 return from_color_to_color((d.Wave + d.Leisuretime + d.Stateofhealth + d.Satisfactionwithlife + d.Numberofchildren + d.Democracy + d.Educationattained + d.Scaleofincome + d.Socialclass) / 9)
