@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="41f7fd87-abee-447f-af84-3168bf2c6f40" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WorldValueSurveyInMyOwnView/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../WorldValueSurveyInMyOwnView/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../WorldValueSurveyInMyOwnView/index.html" afterPath="$PROJECT_DIR$/../WorldValueSurveyInMyOwnView/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../WorldValueSurveyInMyOwnView/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="156" column="0" lean-forward="true" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+            <state relative-caret-position="780">
+              <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -270,12 +269,12 @@
       <workItem from="1487600532099" duration="1616000" />
       <workItem from="1487606884849" duration="5000" />
       <workItem from="1487616129804" duration="13777000" />
-      <workItem from="1487660644427" duration="1341000" />
+      <workItem from="1487660644427" duration="1533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16739000" />
+    <option name="totallyTimeSpent" value="16931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -494,8 +493,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../WorldValueSurveyInMyOwnView/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="156" column="0" lean-forward="true" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+        <state relative-caret-position="780">
+          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
